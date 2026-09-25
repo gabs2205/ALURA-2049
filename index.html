@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missão AluraStart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="caixa-principal">
+        <!-- Tela Inicial -->
+        <div id="tela-inicial" class="tela">
+            <h1>Sua Missão</h1>
+            <p id="texto-missao">Em 2049, o mundo precisa de respostas. Você foi escolhido para tomar decisões críticas que mudarão o rumo da história.</p>
+            <button id="btn-iniciar" class="btn">Iniciar</button>
+        </div>
+
+        <!-- Tela do Jogo (Inicia oculta) -->
+        <div id="tela-jogo" class="tela esconder">
+            <div class="caixa-perguntas"></div>
+            <div class="caixa-alternativas"></div>
+        </div>
+
+        <!-- Tela de Resultado (Inicia oculta) -->
+        <div id="tela-resultado" class="tela esconder">
+            <h1>Fim da Missão</h1>
+            <p class="texto-resultado"></p>
+            <button id="btn-reiniciar" class="btn">Jogar Novamente</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
